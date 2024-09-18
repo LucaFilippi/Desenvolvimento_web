@@ -1,0 +1,26 @@
+body {
+    background-image: url('https://pbs.twimg.com/media/ESH-xScX0AAO_wz.jpg:large'); 
+    background-size: contain; 
+    background-repeat: repeat;  
+    color: #ffffff;
+    font-family: comic-sans;
+    
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    position: relative;
+    overflow: hidden;
+}
+
+.fade-image {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease-out; 
+}
